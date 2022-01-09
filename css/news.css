@@ -1,0 +1,36 @@
+.news-feed {
+  display: inline-block;
+  text-align: center;
+  background-color: #222222;
+  padding-bottom: 50px;
+}
+
+.news-feed h2 {
+  color: #e3e3e3;
+}
+
+.news {
+  background-color: #18181a;
+  color: #e3e3e3;
+  display: inline-block;
+  width: 30%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+  .news {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .news {
+    width: 80%;
+  }
+}
+
+.news img {
+  width: 100%;
+}

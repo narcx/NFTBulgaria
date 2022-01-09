@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="NFT Shop" name="description">
+  <meta content="NFTbulgaria" name="author">
+  <meta charset="UTF-8" />
+  <title>NFTbulgaria | Explore</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/explore.css" />
+<body>
+  <header>
+    <a href="index.html" class="logo-container">
+      <img src="https://www.deepsquare.io/app/uploads/deepsquare-blockchain.png" alt="NFTbulgaria logo" />
+      <h2 class="logo logo-gradient">NFTbulgaria</h2>
+    </a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="./index.html">Home</a></li>
+        <li><a class="nav-link nav-link-active" href="./explore.html">Explore</a></li>
+        <li><a class="nav-link" href="./shop.html">NFT Shop</a></li>
+        <li><a class="nav-link" href="./news.html">News</a></li>
+        <li><a class="nav-link" href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="certified">
+      <img src="https://murlink.com/wp-content/uploads/2021/01/certified-100x100.png" alt="Certified logo" />
+    </div>
+
+    <div class="mobile-nav-link">
+      <a class="hamburger"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png" alt="Hamburger menu icon"></a>
+    </div>
+  </header>
+
+  <section class="mobile-nav">
+    <a class="close-mobile-nav"><img src="https://www.nicepng.com/png/full/52-521935_close-white-close-button-png.png" /></a>
+    <ul class="mobile-nav-links">
+      <li><a class="mobile-nav-link" href="./index.html">Home</a></li>
+      <li><a class="mobile-nav-link nav-link-active" href="./explore.html">Explore</a></li>
+      <li><a class="mobile-nav-link" href="./shop.html">NFT Shop</a></li>
+      <li><a class="mobile-nav-link" href="./news.html">News</a></li>
+      <li><a class="mobile-nav-link" href="./contact.html">Contact</a></li>
+    </ul>
+  </section>
+
+    <section class="explore">
+        <div id="disney-vr">
+          <h2>Gutter Cat #2902</h2>
+          <img src="https://lh3.googleusercontent.com/fGdE-gsnR_GYS-kLmUdjPZymscY7LW2u0-6M8hZnnuAMlnM4reeWQ0Y34kbDqAQr90TO-eI6xMt3NK4KDA_qaG1UX83pk80HYZPMkA=w600" alt="NFT image">
+          <span>Created by <strong>GutterCatGang_</strong></span>
+          <p>The year is 2050. Humans are an interplanetary species and have all but abandoned the post-apocalyptic shatters of society on earth. Cats have taken over. One crime-ridden, nondescript inner city is inhabited by a group of cats collectively known as the Gutter Cats.</p>
+        </div>
+
+        <div id="raw-data">
+          <h2>LAND (-189, 136)</h2>
+          <img src="https://lh3.googleusercontent.com/A_fZ_gOHoclCjkbol5qmtPnsaNI6jadjDJgaBcFviikEXU2w-UUOw5kfw4K46AgDQQrClzGGqJektcDak8vGjajqfn7LNp4x7wH6=w600" alt="NFT image">
+          <span>Created by <strong>18DD4E</strong></span>
+          <p>A LAND is a digital piece of real estate in The Sandbox metaverse that players can buy to build experiences on top of. Once you own a LAND, you will be able to populate it with Games and Assets. Each LAND is a unique (non-fungible) token lying on the public Ethereum blockchain (ERC-721).</p>
+        </div>
+
+      <div id="google-earth">
+        <h2>Tower 01 - Hydrology</h2>
+        <img src="https://storage.opensea.io/files/824ee0ee3656018646f4e66914a6048f.jpg" alt="NFT image">
+        <span>Created by <strong>CF1BB9</strong></span>
+        <p>Tower 01 desires to be reclaimed by the natural environment. The circulatory system extends its reach to the waters below, harnessing hydro energy to fuel the adjacent towers. Towers of Ecologies. 1/1 Single Edition</p>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="footer-logo-container">
+        <img src="https://www.deepsquare.io/app/uploads/deepsquare-blockchain.png" alt="Footer logo" />
+      </div>
+      <div class="footer-box">
+        <h3>Need Help?</h3>
+        <a href="#">Terms &amp; Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>More</h3>
+        <a href="#">Our partners</a>
+        <a href="#"></a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Follow us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Find us</h3>
+        <span>Varna, Bulgaria - 9000</span>
+        <span>bul 'Tsar Osvoboditel' 11</span>
+      </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+  $('.hamburger').click(function() {
+    if ($('.mobile-nav').hasClass('opened')) {
+      $('.mobile-nav').removeClass('opened');
+    } else {
+      $('.mobile-nav').addClass('opened');
+    }
+  });
+
+  $('.close-mobile-nav').click(function() {
+      $('.mobile-nav').removeClass('opened');
+  });
+</script>
+</html>

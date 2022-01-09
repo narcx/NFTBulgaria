@@ -1,0 +1,39 @@
+.explore {
+  background-color: #070a0f;
+  color: #e3e3e3;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.explore div {
+  width: 31.33%;
+  padding: 1%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .explore div {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .explore div {
+    width: 98%;
+  }
+}
+
+.explore div img {
+  width: 100%;
+  display: inline-block;
+}
+
+.explore div span {
+  display: block;
+}
+
+.explore div p {
+  text-align: left;
+}

@@ -1,0 +1,60 @@
+.intro {
+  background-color: #070a0f;
+  color: #e3e3e3;
+  padding: 30px;
+  text-align: center;
+}
+
+.intro p {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+  .intro p {
+    width: 80%;
+  }
+}
+
+.shop {
+  background-color: #070a0f;
+  color: #e3e3e3;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.shop div {
+  width: 31.33%;
+  padding: 1%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .shop div {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .shop div {
+    width: 98%;
+  }
+}
+
+.shop div img {
+  width: 100%;
+  display: inline-block;
+}
+
+.shop div span {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+}
+
+.shop div p {
+  text-align: left;
+}

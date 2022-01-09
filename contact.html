@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="NFT Shop" name="description">
+    <meta content="NFTbulgaria" name="author">
+    <meta charset="UTF-8" />
+    <title>NFTbulgaria | Contact us</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo-container">
+        <img src="https://www.deepsquare.io/app/uploads/deepsquare-blockchain.png" alt="NFTbulgaria logo" />
+        <h1 class="logo logo-gradient">NFTbulgaria</h1>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="./index.html">Home</a></li>
+          <li><a class="nav-link" href="./explore.html">Explore</a></li>
+          <li><a class="nav-link" href="./shop.html">NFT Shop</a></li>
+          <li><a class="nav-link" href="./news.html">News</a></li>
+          <li><a class="nav-link nav-link-active" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="certified">
+        <img src="https://murlink.com/wp-content/uploads/2021/01/certified-100x100.png" alt="Certified logo" />
+      </div>
+
+      <div class="mobile-nav-link">
+        <a class="hamburger"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png" alt="Hamburger menu icon"></a>
+      </div>
+    </header>
+
+    <section class="mobile-nav">
+      <a class="close-mobile-nav"><img src="https://www.nicepng.com/png/full/52-521935_close-white-close-button-png.png" /></a>
+      <ul class="mobile-nav-links">
+        <li><a class="mobile-nav-link" href="./index.html">Home</a></li>
+        <li><a class="mobile-nav-link" href="./explore.html">Explore</a></li>
+        <li><a class="mobile-nav-link" href="./nfts.html">NFT Shop</a></li>
+        <li><a class="mobile-nav-link" href="./news.html">News</a></li>
+        <li><a class="mobile-nav-link nav-link-active" href="./contact.html">Contact</a></li>
+      </ul>
+    </section>
+    
+    <section class="contact-form">
+      <form>
+        <h2>Contact Us</h2>
+        <div class="text-box">
+          <label>Full Name :</label>
+          <input id="name" placeholder="Full Name" />
+        </div>
+
+        <div class="text-box">
+          <label>Email :</label>
+          <input id="email" type="email" placeholder="Email" />
+        </div>
+
+        <div class="text-box">
+          <label>Phone Number :</label>
+          <input id="number" placeholder="Phone Number" />
+        </div>
+
+        <div class="text-box">
+          <label>Message :</label>
+          <textarea id="message" placeholder="Message" ></textarea>
+        </div>
+
+        <a class="btn">Send</a>
+      </form>
+    </section>
+    
+    <div class="footer">
+      <div class="footer-logo-container">
+        <img src="https://www.deepsquare.io/app/uploads/deepsquare-blockchain.png" alt="Footer logo" />
+      </div>
+      <div class="footer-box">
+        <h3>Need Help?</h3>
+        <a href="#">Terms &amp; Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>More</h3>
+        <a href="#">Our partners</a>
+        <a href="#"></a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Follow us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Find us</h3>
+        <span>Varna, Bulgaria - 9000</span>
+        <span>bul 'Tsar Osvoboditel' 11</span>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $('.hamburger').click(function() {
+      if ($('.mobile-nav').hasClass('opened')) {
+        $('.mobile-nav').removeClass('opened');
+      } else {
+        $('.mobile-nav').addClass('opened');
+      }
+    });
+
+    $('.close-mobile-nav').click(function() {
+        $('.mobile-nav').removeClass('opened');
+    });
+  </script>
+</html>
